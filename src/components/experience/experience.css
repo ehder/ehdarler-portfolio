@@ -1,0 +1,101 @@
+.skill h2, h4 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 4px 3px rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+}
+
+.experience__container {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
+    text-align: center;
+}
+
+.frontend {
+    padding: 2px 2px 2px 2px;
+}
+
+.frontend h4, .backend h4 {
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.experience__contact {
+    padding: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    background-image: url(../../assets/woodbg.jpg);
+    box-shadow: 0px 5px 5px 2px rgb(0, 0, 0);
+    border-radius: 0.5rem;
+}
+
+.experience__details {
+    background: white;
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 2px 3px 1px;
+    transition: 3s;
+}
+
+.experience__details:hover {
+    background: rgb(196, 109, 109);
+    transition: 0.6s;
+}
+
+.experience_details-icon {
+    position: relative;
+    left: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+    transition: 0.4s;
+    color: rgb(255, 183, 0);
+}
+
+.experience_details-icon:hover {
+    color: rgb(115, 255, 0);
+}
+
+.experience__detail {
+    position: relative;
+    left: 2rem;
+    text-align: left;
+}
+
+.backend {
+    padding: 2px 2px 2px 2px;
+}
+
+/* ===================================MEDIA QUERY (MID DEVIECES) ==================TABLET===================== */
+
+@media screen and (max-width: 1024px){
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+
+
+/* ===================================MEDIA QUERY (SMALL DEVIECES) ==================TABLET===================== */
+
+@media screen and (max-width: 600px){
+
+    .experience_details-icon {
+        left: 0.5rem;
+    }
+
+    .experience__detail {
+        left: 0.5rem;
+    }
+
+}
+
+

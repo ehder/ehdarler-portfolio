@@ -1,0 +1,126 @@
+
+ .about h2, h4 {
+    padding-top: 1rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 4px 3px rgb(0, 0, 0);
+    font-weight: 700;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.about__container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 10%;
+    padding-bottom: 3rem;
+}
+
+.about__me {
+    background: rgba(210, 214, 214, 0.5);
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    position: relative;
+    left: 5rem;
+    box-shadow: 0px 3px 3px;
+    transform: rotate(5deg);
+    border-radius: 1rem;
+    transition: 0.8s;
+}
+
+.about__me:hover {
+    transition: 0.8s;
+    transform: rotate(0deg);
+    box-shadow: 0px 0px 3px;
+}
+
+.about__cards {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card {
+    color: aliceblue;
+    font-weight: 700;
+    text-shadow: 1px 3px 3px black;
+    height: fit-content;
+    text-align: center;
+    background: rgb(101, 103, 236);
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0rem 0rem 1rem rgb(129, 129, 129);
+    transition: 0.8s;
+}
+
+.about__card:hover {
+    transition: 0.8s;
+background: rebeccapurple;
+}
+
+.about__content p {
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+/* ===================================MEDIA QUERY (MID DEVIECES) ==================TABLET===================== */
+
+@media screen and (max-width: 1024px){
+
+    .about__me {
+        width: 10rem;
+        height: 10rem;
+        left: 3rem;
+    }
+
+    .about__cards {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .about__card {
+        font-size: small;
+        color: aliceblue;
+        font-weight: 500;
+        padding: 1rem;
+    }
+    
+}
+
+
+
+
+/* ===================================MEDIA QUERY (SMALL DEVIECES) ==================TABLET===================== */
+
+@media screen and (max-width: 600px){
+
+    .about__container {
+        grid-template-columns: 1fr;
+        padding-bottom: 3rem;
+    }
+    
+
+    .about__me {
+        width: 10rem;
+        height: 10rem;
+        left: 5rem;
+    }
+
+    .about__cards {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .about__card {
+        font-size: small;
+        color: aliceblue;
+        font-weight: 500;
+        padding: 1rem;
+    }
+
+}

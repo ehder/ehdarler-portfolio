@@ -1,0 +1,67 @@
+.portfoio__container {
+    height: fit-content;
+    text-align: center;
+    padding: 5rem 2rem 2rem 2rem;
+
+}
+
+.portfolio {
+    padding: 1rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.portfolio__item {
+    background: rgb(45, 51, 83);
+    /* box-shadow: 0px 1px 3px rgb(98, 218, 255); */
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: 3s;
+}
+
+.portfolio__item:hover {
+    background: rgba(12, 29, 66, 0.8);
+    transition: 0.6s;
+}
+
+.portfolio__item-image {
+    width: 20rem;
+    height: 20rem;
+    overflow: scroll;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 2px rgb(6, 255, 255);
+}
+
+.portfolio__item-cta .btn {
+    margin: 0.5rem;
+}
+
+/* ===================================MEDIA QUERY (MID DEVIECES) ==================TABLET===================== */
+
+@media screen and (max-width: 1024px){
+
+    .portfoio__container {
+        height: fit-content;
+        text-align: center;
+        padding: 5rem 2rem 2rem 2rem;
+    
+    }
+    .portfolio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+/* ===================================MEDIA QUERY (SMALL DEVIECES) ==================TABLET===================== */
+
+@media screen and (max-width: 600px){
+
+    .portfolio {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

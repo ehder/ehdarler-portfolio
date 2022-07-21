@@ -1,0 +1,207 @@
+footer.container {
+    height: 100vh;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: bold;
+}
+
+.footer__container {
+    /* background-image: url(../../assets/forest-bg.jpg); */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer__top{
+    height: 12rem;
+    background-image: url(../../assets/woodbg.jpg);
+    border-radius: 1rem 1rem 1rem 1rem ;
+    box-shadow: 2px 4px 10px;
+}
+
+.footer__top h2{
+    margin-top: 2rem;
+    transform: rotate(5deg);
+    transition: 0.8s;
+    width: fit-content;
+    padding: 0.2rem;
+    margin-left: calc(50% - 5rem);
+    background: chocolate;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 3px black;
+}
+
+.footer__top h2:hover{
+    margin-top: 2rem;
+    transform: rotate(0deg);
+}
+
+
+.footer__mid{
+    width: calc(100% - 1rem);
+    position: relative;
+    height: 13rem;
+    background-image: url(../../assets/woodbg.jpg);
+    box-shadow: 2px 4px 5px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    left: 0.5rem;
+    transform: rotate(-6deg);
+}
+
+.footer__mid .iron1 {
+    position: absolute;
+    list-style-type: disc;
+    bottom: 0.8rem;
+    left: 1.2rem;
+}
+
+.footer__mid .iron2 {
+    position: absolute;
+    list-style-type: disc;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.footer__mid a {
+    margin-left: 2.1rem;
+    margin-top: 2.5rem;
+    padding-top: 3rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.2rem 1rem 1rem 0.2rem;
+    box-shadow: 3px 4px 2px wheat;
+    border: 1px solid rgb(49, 49, 49, 0.3);
+    transform: rotate(0deg);
+}
+
+.footer__mid a:hover{
+    transform: rotate(5deg);
+    color: white;
+    box-shadow: 0px 0px 0px;
+    background: transparent;
+    background: rgb(66, 99, 99);
+    box-shadow: 3px 4px 2px rgb(43, 43, 43);
+}
+
+.footer__bottom{
+    height: 13rem;
+    box-shadow: 2px 4px 10px;
+    border-radius: 1rem 1rem 1rem 1rem;
+
+    background-image: url(../../assets/woodbg.jpg);
+}
+
+
+.footer__socials {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+
+/* ===================================MEDIA QUERY (MID DEVIECES) ==================TABLET===================== */
+
+@media screen and (max-width: 1024px){
+    .footer__container {
+        gap: 0.5rem;
+    }
+
+    .footer__top{
+        height: 10rem;
+        background-image: url(../../assets/woodbg.jpg);
+        border-radius: 1rem 1rem 1rem 1rem ;
+        box-shadow: 2px 4px 10px;
+    }
+    
+    .footer__mid{
+        width: calc(100%);
+        position: relative;
+        height: 10rem;
+        background-image: url(../../assets/woodbg.jpg);
+        box-shadow: 2px 4px 10px;
+        border-radius: 1rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: row;
+        left: 0rem;
+        transform: rotate(0deg);
+        font-size: 15px;
+    }
+
+    .footer__bottom{
+        height: 10rem;
+        box-shadow: 2px 4px 10px;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background-image: url(../../assets/woodbg.jpg);
+    }
+
+    .footer__mid a {
+        margin-left: 0.5rem;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow: 0px 0px 0px;
+        border: none;
+    }
+
+    .footer__mid a:hover {
+        background: none;
+        border: none;
+        box-shadow: none;
+        transform: none;
+    }
+    
+}
+
+
+
+
+/* ===================================MEDIA QUERY (SMALL DEVIECES) ==================Phone===================== */
+
+@media screen and (max-width: 600px){
+
+    .footer__container {
+        gap: 0.1rem;
+    }
+
+    .footer__top{
+        height: 10rem;
+        background-image: url(../../assets/woodbg.jpg);
+        border-radius: 1rem 1rem 1rem 1rem ;
+        box-shadow: 2px 4px 10px;
+    }
+    
+    .footer__mid{
+        width: calc(100%);
+        position: relative;
+        height: 10rem;
+        background-image: url(../../assets/woodbg.jpg);
+        box-shadow: 2px 4px 10px;
+        border-radius: 1rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: row;
+        left: 0rem;
+        transform: rotate(0deg);
+        font-size: 11px;
+    }
+
+    .footer__bottom{
+        height: 10rem;
+        box-shadow: 2px 4px 10px;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background-image: url(../../assets/woodbg.jpg);
+    }
+
+    .footer__mid a {
+        margin-left: 0rem;
+        border-radius: 0px 0px 0px 0px;
+        box-shadow: 0px 0px 0px;
+        border: none;
+    }
+
+}

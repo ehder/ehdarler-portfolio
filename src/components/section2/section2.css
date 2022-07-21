@@ -1,0 +1,250 @@
+.section2__container {
+    height: 100vh;
+    padding: 1rem;
+}
+
+.card1 {
+    background: rgb(32, 57, 61);
+    width: 100%;
+    height: 37.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card1:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card2 {
+    background: rgb(143, 240, 255);
+    width: 100%;
+    height: 35.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card2:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card3 {
+    background: rgb(241, 255, 50);
+    width: 100%;
+    height: 33.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card3:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card4 {
+    background: rgb(9, 255, 30);
+    width: 100%;
+    height: 31.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card4:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card5 {
+    background: rgb(231, 0, 220);
+    width: 100%;
+    height: 29.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card5:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card6 {
+    background: rgb(252, 252, 252);
+    width: 100%;
+    height: 27.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card6:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card7 {
+    background: rgb(0, 60, 255);
+    width: 100%;
+    height: 25.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card7:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card8 {
+    background: rgb(80, 0, 80);
+    width: 100%;
+    height: 23.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card8:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card9 {
+    background: rgb(255, 0, 0);
+    width: 100%;
+    height: 21.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card9:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card10 {
+    background: rgb(131, 77, 77);
+    width: 100%;
+    height: 19.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card10:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+
+.card11 {
+    background: rgb(110, 160, 54);
+    width: 100%;
+    height: 17.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card11:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+
+.card12 {
+    background: rgb(141, 141, 141);
+    width: 100%;
+    height: 15.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card12:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card13 {
+    background: rgb(200, 255, 164);
+    width: 100%;
+    height: 13.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card13:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card14 {
+    background: rgb(173, 147, 0);
+    width: 100%;
+    height: 11.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+
+.card14:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+}
+
+.card15 {
+    width: 100%;
+    height: 9.5rem;
+    background: transparent;
+    box-shadow: 0px 0px 0px;
+    transition: 0.8s;
+    text-align: center;
+}
+
+
+.card15:hover {
+    background: rgb(18, 0, 85);
+    width: 100%;
+    height: 9.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 5px;
+    border-radius: 1rem;
+    transition: 2s;
+}
